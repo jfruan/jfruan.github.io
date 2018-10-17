@@ -1,0 +1,136 @@
+# jemdoc: menu{MENU}{index.html}, title{Vuong V. Trinh}
+# jemdoc: addcss{css/jacob.css}{css/page.css}{css/exp.css}{css/cvxgen.css}{css/prob_grammar.css}{css/extra.css}{css/bibtex.css}
+
+~~~
+{}{img_left}{img/portrait.jpg}{Vuong V. Trinh}{200}{}{}
+~~~
+
+= About me
+
+I was a doctoral candidate in process control and optimization at [http://www.gipsa-lab.fr/ Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)] and [http://www.cea.fr/ Commissariat à l'énergie atomique et aux énergies alternatives (CEA)] within [http://inac.cea.fr/sbt/ Service des Basses Températures (INAC-SBT)]. 
+
+I received engineer's degree from [https://en.hust.edu.vn/ Hanoi University of Science and Technology (HUST)] in 2012, followed by master's degree from [https://www.univ-grenoble-alpes.fr/ Université Joseph Fourier (UJF)] and [http://www.grenoble-inp.fr/ Institut Polytechnique de Grenoble (Grenoble INP)] in 2014, both in automation and control engineering.
+
+I completed few MOOCs, including the training course [https://courses.edx.org/certificates/4e869688c7974b4a9921132fb210af95 CS50's Introduction to Computer Science (edX | Harvard University)] and the professional certificate program [https://credentials.edx.org/credentials/705bea19346245fd88ee8220869331c7 TUM Lean Six Sigma Yellow Belt Certification (edX | Technische Universität München)].
+
+I am a numerical optimization, process control and machine learning enthusiast. I am also keen on industrial automation, computer programming and embedded applications.
+
+= Portoflio
+
+== Robust Active Vibration Control
+
+Supervisors: [https://www.gipsa-lab.grenoble-inp.fr/~ioandore.landau/ Ioan D. Landau] and [https://www.researchgate.net/profile/Luc_Dugard Luc Dugard] at [http://www.gipsa-lab.fr/ Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)].
+
+~~~
+{}{img_left}{research/avc.jpg}{}{200}{}{}
+~~~
+
+~~~
+{}{img_left}{research/psd.png}{}{200}{}{}
+~~~
+
+== Innovative Advanced Control of Large Cryogenic Systems to Save Energy and Reduce Carbon Emission
+
+Supervisors: [http://www.mazenalamir.fr/home/ Mazen Alamir] and [https://www.researchgate.net/profile/P_Bonnay Patrick Bonnay] at [http://www.cea.fr/ Commissariat à l'énergie atomique et aux énergies alternatives (CEA)] within [http://inac.cea.fr/sbt/ Service des Basses Températures (INAC-SBT)], funded by [http://www.agence-nationale-recherche.fr/Project-ANR-13-SEED-0005 Project ANR CRYOGREEN].
+
+~~~
+{}{img_left}{research/400W.jpg}{}{200}{}{}
+*Cryogenic refrigerator control problem*
+- Widely used to cool down and maintain superconductivity of supraconducting devices in nuclear fusion reactors or particle accelerators. 
+- Composed of several heterogeneous subsystems that may spread over some large areas and are strongly coupled, while tuning, maintenance and upgrading
+are taken place quite often, making modular control design becomes crucial.
+
+*Proposed hierarchical distributed control framework*
+- A two-level hierarchical model predictive control framework is studied, relying on a fixed-point based coordination mechanism. 
+- Coordination and therefore overall optimality is achieved by means of the quadratic approximation approach that is widely used in derivative-free optimization techniques.
+~~~
+
+~~~
+{}{img_left}{research/cern_wcs18kw.jpg}{}{200}{}{}
+*Compression station control problem*
+- Primary component of the helium cryogenic systems, composed by several volumetric compressors, a buffer system and some control valves installation such as bypass, charge and discharge valves. 
+- Extensively deployed in buildings and facilities under different configurations, capacities and constraints.
+
+*Proposed generic PLC-compatible control framework*
+- Physical modelling using object-oriented user-friendly library +SimCryogenics+.
+- Allocation control structure embeds implicit/explicit constrained model predictive controllers.
+~~~
+
+=== Explicit nonlinear model predictive control
+
+~~~
+{}{img_left}{research/enmpc-partition.png}{}{200}{}{}
+*Source code*
+\n[https://github.com/trinhvv/explicit-mpc explicit-mpc]: Data driven explicit nonlinear model predictive control method leverages robust nonlinear regression and reduced-set support vector machines.  
+\n[https://github.com/trinhvv/robust-nonlinear-regression robust-nonlinear-regression]: Multivariate robust nonlinear regression leverages Wiener model and sparsity-induced optimization.
+\n*Technologies*
+\nLibraries: +qpOASES+, +ACADOtoolkit+, +CPLEX+, +LIBSVM+, +SPRtool+
+\nLanguages: +Matlab+, +C+
+~~~
+
+=== Hierarchical distributed model predictive control
+
+~~~
+{}{img_left}{research/anderson-convergence.png}{}{200}{}{}
+*Source code*
+\n[https://github.com/trinhvv/hierarchical-mpc hierarchical-mpc]: Hierarchical model predictive control coordination method for dynamical coupled systems using fixed-point iterations and derivative-free optimization.
+\n*Technologies*
+\nLibraries: +qpOASES+, +NLopt+
+\nLanguages: +Matlab+, +C+
+~~~
+
+== Anomaly Detection of Time Series Data Using Machine Learning, Data Mining and Deep Learning
+
+Collaborators: [https://www.linkedin.com/in/kim-phuc-tran-5bb779b3/ Phuc K. Tran], with other researchers in Vietnam, France and Belgium. ([https://www.researchgate.net/project/Anomaly-Detection-of-Time-Series-Data-using-Machine-Learning-Data-Mining-Deep-Learning Project link])
+
+~~~
+{}{img_left}{research/ibrl_wsn.png}{}{200}{}{}
+*Anomaly detection in wireless sensor networks*
+- Composed of a large number of sensor nodes that can communicate the information gathered from a monitored field and to cooperatively pass their data throughout the network. 
+- Due to the deployment of a large number of sensor nodes in hostile environments, data collected is often unreliable. This will affect the modeling and scientific reasonable inference by information gatherered.
+~~~
+
+~~~
+{}{img_left}{research/anomaly-detection.png}{}{200}{}{}
+*Source code*
+\n[https://github.com/trinhvv/wsn-svdd-mk wsn-svdd-mk]: Anomaly detection in wireless sensor networks via support vector data description with Mahalanobis kernels and discriminative adjustment.  
+\n[https://github.com/trinhvv/wsn-ocsvm-dfn wsn-ocsvm-dfn]: Data driven hyperparameter optimization of one-class support vector machines for anomaly detection in wireless sensor networks.
+\n*Technologies*
+\nLibraries: +LIBSVM+, +NLopt+, +NumPy+, +SciPy+, +matplotlib+
+\nLanguages: +Matlab+, +Python+
+~~~
+
+== Cryptoasset Analytics and Quantitative Algorithmic Trading
+
+=== Blockchain and exchange statistics
+
+~~~
+{}{img_left}{https://github.com/trinhvv/trading-analysis-bot/blob/master/img/avatar.png?raw=true}{}{200}{}{}
+*Chatbot*
+\n[https://github.com/trinhvv/trading-analysis-bot trading-analysis-bot]: Telegram chatbot for data-driven analytics of cryptoassets with technical and sentimental analyses, development activities and on-chain transactions statistics. 
+\n/Developed during my introductory computer science course at [https://courses.edx.org/certificates/4e869688c7974b4a9921132fb210af95 edX | Harvard University]./
+\n/[https://t.me/trading_analysis_bot Hey, want to chat?]/
+\n*Technologies*
+\nLibraries: +python-telegram-bot+, +python-binance+, +numpy+, +TA-lib+
+\nPostgreSQL database: +psycopg2+
+\nCloud platform: +Heroku+
+~~~
+
+=== Cryptoasset valuation and price analysis
+
+~~~
+{}{img_left}{https://www.ibm.com/blogs/bluemix/wp-content/uploads/2016/02/IBM_Blockchain_Hero.png}{}{200}{}{}
+*Blog*
+\n[https://cryptoasset-analytics.herokuapp.com https://cryptoasset-analytics.herokuapp.com]: In-depth studies on network value, ranking, on-chain metrics and valuation models for cryptoassets.
+\n/Collection of my research as volunteer community analyst at [https://messari.io Messari]./
+\n*Technologies*
+\nWeb framework: +Pelican+
+\nTheme: +Attila+
+\nCloud platform: +Heroku+
+~~~
+
+= Publications
+
+#includeraw{publist.html}
+
+\n
