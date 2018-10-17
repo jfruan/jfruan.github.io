@@ -1,0 +1,59 @@
+# jemdoc: nofooter
+# jemdoc: menu{MENU}{running.html}
+
+= Running
+
+== I have finished 7 marathons:
+
+~~~
+{}{table}{marathons}
+Date | Competition | Result ||
+Mar 30, 2014 | Zhengzhou-Kaifeng | 5:02:35 ||
+Oct 19, 2014 | Beijing | 4:53:39 ||
+May 31, 2015 | Qinhuangdao  | 5:13:33 ||
+Sep 20, 2015 | Beijing  | 5:26:01 ||
+Nov 8, 2015 | Shanghai  | 5:10:01 ||
+Sep 17, 2016 | Beijing  | 4:02:37 ||
+Oct 30, 2016 | Shanghai  | 4:41:00
+~~~
+
+== 2014 Zhengzhou-Kaifeng International Marathon
+~~~
+{}{img_left}{images/run-2014-zk-cer.jpg}{run-2014-zk-cer}{}{400px}
+
+[img{}{400px} images/run-2014-zk.jpg run-2014-zk]
+~~~
+
+== 2014 Beijing International Marathon
+~~~
+{}{img_left}{images/run-2014-bj-cer.jpg}{run-2014-bj-cer}{}{400px}
+
+[img{}{400px} images/run-2014-bj1.jpg run-2014-bj1]
+~~~
+
+== 2015 Qinhuangdao International Marathon
+~~~
+{}{img_left}{images/run-2015-qhd-1.jpg}{run-2015-qhd-1}{}{400px}
+
+[img{}{400px} images/run-2015-qhd-2.jpg run-2015-qhd-2]
+~~~
+
+== 2015 Beijing International Marathon
+~~~
+{}{img_left}{images/run-2015-bj-cer.png}{run-2015-bj-cer}{}{400px}
+
+[img{}{400px} images/run-2015-bj-1.jpg run-2015-bj1]
+~~~
+
+== 2015 Shanghai International Marathon
+[img{}{400px} images/run-2015-sh.jpg run-2015-sh]
+
+
+== 2016 Beijing International Marathon
+[img{}{400px} images/run-2016-bj-cer.jpg run-2016-bj-cer]
+
+
+== 2016 Shanghai International Marathon
+[img{}{400px} images/run-2016-sh-cer.jpg run-2016-sh-cer]
+
+

@@ -1,0 +1,102 @@
+# jemdoc: nofooter
+# jemdoc: menu{MENU}{life.html}
+
+
+= [running.html Running] -- [conference.html Conferences] -- Travelling -- [personal.html My Wedding]
+
+= Running
+
+== I have finished 7 marathons:
+
+~~~
+{}{table}{marathons}
+Date | Competition | Result ||
+Mar 30, 2014 | Zhengzhou-Kaifeng | 5:02:35 ||
+Oct 19, 2014 | Beijing | 4:53:39 ||
+May 31, 2015 | Qinhuangdao  | 5:13:33 ||
+Sep 20, 2015 | Beijing  | 5:26:01 ||
+Nov 8, 2015 | Shanghai  | 5:10:01 ||
+Sep 17, 2016 | Beijing  | 4:02:37 ||
+Oct 30, 2016 | Shanghai  | 4:41:00
+~~~
+
+== 2014 Zhengzhou-Kaifeng International Marathon
+~~~
+{}{img_left}{images/run-2014-zk-cer.jpg}{run-2014-zk-cer}{}{400px}
+
+[img{}{400px} images/run-2014-zk.jpg run-2014-zk]
+~~~
+
+== 2014 Beijing International Marathon
+~~~
+{}{img_left}{images/run-2014-bj-cer.jpg}{run-2014-bj-cer}{}{400px}
+
+[img{}{400px} images/run-2014-bj1.jpg run-2014-bj1]
+~~~
+
+== 2015 Qinhuangdao International Marathon
+~~~
+{}{img_left}{images/run-2015-qhd-1.jpg}{run-2015-qhd-1}{}{400px}
+
+[img{}{400px} images/run-2015-qhd-2.jpg run-2015-qhd-2]
+~~~
+
+== 2015 Beijing International Marathon
+~~~
+{}{img_left}{images/run-2015-bj-cer.png}{run-2015-bj-cer}{}{400px}
+
+[img{}{400px} images/run-2015-bj-1.jpg run-2015-bj1]
+~~~
+
+== 2015 Shanghai International Marathon
+[img{}{400px} images/run-2015-sh.jpg run-2015-sh]
+
+
+== 2016 Beijing International Marathon
+[img{}{400px} images/run-2016-bj-cer.jpg run-2016-bj-cer]
+
+
+== 2016 Shanghai International Marathon
+[img{}{400px} images/run-2016-sh-cer.jpg run-2016-sh-cer]
+
+= Conference
+
+== *[https://www.ifac2017.org/ IFAC 2017]*, Toulouse, France
+\n July 9-14, 2017
+~~~
+{}{img_left}{images/con-ifac1.jpg}{ifac1}{400px}
+
+[img{400px} images/con-ifac2.jpg ifac2]
+~~~
+
+~~~
+{}{img_left}{images/con-ifac3.jpg}{ifac3}{400px}
+
+[img{400px} images/con-ifac4.jpg ifac4]
+~~~
+
+== *[http://www.space-flight.org/docs/2017_winter/2017_winter.html 27th AAS/AIAA Space Flight Mechanics Meeting]*, San Antonio, USA  
+\nFebruary 5-9, 2017
+
+~~~
+{}{img_left}{images/con-aas1.jpg}{aas1}{400px}
+
+[img{400px} images/con-aas2.jpg aas2]
+~~~
+
+~~~
+{}{img_left}{images/con-aas3.jpg}{aas3}{400px}
+[img{400px} images/con-aas4.jpg aas4]
+~~~
+
+[img{400px} images/con-aas5.jpg aas5]
+
+= My Wedding
+
+I got married on Aug 17, 2017. This is my wedding documentary.
+
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/qwz2u6FgajI"" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+

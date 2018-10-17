@@ -1,0 +1,129 @@
+# jemdoc: nofooter
+# jemdoc: menu{MENU}{research.html}
+= Research \[*[https://scholar.google.com/citations?user=maZqCl8AAAAJ&hl=en Google Scholar]*\]
+
+Advisor: [http://www.cs.tsinghua.edu.cn/publish/cs/4616/2013/20130424105018901205437/20130424105018901205437_.html Prof. Jihong Zhu] \[[http://xueshu.baidu.com/scholarID/CN-BT73SJUJ Scholar]\]
+
+= Missile Guidance
+== Detection and Guidance of Aircraft Active Defense System
+Aug 2017 to Present\n
+- Performed computational analysis on the \Aircraft-Missile-Defender" three-body pursuit-evasion problem
+- Formulated MATLAB algorithms to implement the novel predictive guidance laws of the defender missile
+- Conducted identification of guidance law against an unknown missile
+- Developed a real-time digital Aircraft Active Defense simulation system using RTX, including the full-process dynamics and closed loop control of aircrafts and missiles
+- Collaboratively developed the 3D visual flight simulation system using Unity3D
+
+[img{}{400px} images/guidance_TAD.jpg guidance_TAD]
+
+== Cooperative Guidance of Multiple Kill Vehicles
+Apr 2016 to Nov 2017
+- Designed and optimized the cooperative detection and guidance strategy
+- Proposed a high-accuracy position measurement method based on sensors fusion
+techniques
+- Formulated a framework to implement the dynamics simulation of vehicles by C\+\+
+- Developed the visual simulation system using OpenSceneGraph
+- Performed the full-process dynamics simulation of midcourse defense
+
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/1zYYM5NaFJA" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+
+== Trajectory Planning of Approaching Non-cooperative Targets Based on Gauss Pseudospectral Method
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/_eiH_-l_YNY" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+== Modeling and Flight Control of a Flying-Wing Tailsitter
+Sep 2015 to Nov 2016
+- Performed analysis on the simulation using Simulink
+- Assembled an S500 UAV and made several experiments
+- Worked with fellow group members and produced a Flying-Wing Tailsitter UAV
+- Collaboratively developed a novel active disturbance rejection control method
+
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/OacD-mnZli0" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+
+= Other
+== UAV Flying
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/TEmM2vCMWcc" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/O1Wjktp9_1Y" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+
+== Missile Infrared Simulation
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/jD2oVYfAf2k" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+
+== Human-computer Interaction
+Cooperative control of human-computer interaction tools with high recognition rate
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/2JZ4t5akjbc" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+
+Play fruit ninja using Kinect on PC
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/N3VjhB9neWA"" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~
+
+= Publications
+
+~~~
+{}{img_left}{images/fig-IFAC.png}{fig-IFAC}{300px}
+*Heng Shi*, Jihong Zhu, Xiaming Yuan, Minchi Kuang, Wufan Wang, Zhihui Deng. "Research on Intercepting Strategy of Multiple Kill Vehicle in Midcourse Defense Based on Multi-Sensors Fusion
+Method". /IFAC-PapersOnLine/, 50(1): 15032-15037, 2017. (*[https://www.ifac2017.org/ IFAC 2017], Toulouse*)~~*{{<font color="Red">[Oral]</font>}}*
+\n \[[pub/IFAC.pdf paper]\]~\[[https://www.youtube.com/watch?v=_eiH_-l_YNY&feature=youtu.be video]]~\[[conference.html @conference]]
+~~~
+
+~~~
+{}{img_left}{images/fig-AAS.png}{fig-AAS}{300px}
+*Heng Shi*, Jihong Zhu. "Trajectory Planning of Approaching Non-cooperative Targets Based on Gauss Pseudospectral Method". /Advances in the Astronautical
+Sciences/, 160(1): 1527-1538, 2017. 
+\n(*[http://www.space-flight.org/docs/2017_winter/2017_winter.html 27th AAS/AIAA Space Flight Mechanics Meeting], San Antonio*)~~*{{<font color="Red">[Oral]</font>}}*
+\n \[[pub/AAS.pdf paper]\]~\[[https://www.youtube.com/watch?v=1zYYM5NaFJA&feature=youtu.be video]]~\[[conference.html @conference]]
+~~~
+
+~~~
+{}{img_left}{images/fig-CSNC.png}{fig-CSNC}{300px}
+*Heng Shi*, Jihong Zhu. "Research on Application Specication of Chinese Domestic Satellite Technology in Field of Intelligent Tourism". /China Satellite Navigation Conference/ (CSNC). 2017. 
+\n \[[pub/CSNC.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{images/fig-JCQU.png}{fig-JCQU}{300px}
+XiaonaWei, Yunfeng Dong, Fengrui Liu, Lu Tian, Zhao Hao, *Heng Shi*. "Principal component analysis and cluster analysis based orbit optimization for earth observation satellites". /The Journal of Chongqing University-English/. 15(3): 83-94. 2016.
+\n \[[pub/JCQU.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{images/fig-IMCCC.png}{fig-IMCCC}{300px}
+Xiaona Wei, *Heng Shi*, Lu Tian, Zhao Hao, Chunsheng Zhang. "Design and Development of a Universal Verication System for Satellite Data Management System Based on AOS". /International Conference on Instrumentation and Measurement, Computer, Communication and Control/ (IMCCC), IEEE. 2015.
+\n \[[pub/IMCCC.pdf paper]\]
+~~~
+
+~~~
+{}{img_left}{images/fig-ICVRV.png}{fig-ICVRV}{300px}
+*Heng Shi*, Yunfeng Dong. "Research on Cooperative Control of Human-Computer Interaction Tools with High Recognition Rate Based on Neural Network". /International Conference on Virtual Reality and Visualization/ (ICVRV), IEEE. 2014.
+\n \[[pub/ICVRV.pdf paper]\]
+~~~
+
+= Patents
+
+- *Heng Shi*, Jihong Zhu. A Three-dimensional Real-time Omnidirectional Guidance Law, China Patent, CN201810246200.3.\n
+- *Heng Shi*, Jihong Zhu. \A Real-time Multi-prediction Guidance Law for Aircraft Defending Missile, China Patent, CN201818001011.0.
+
+= Forums
+
+- 2017 Tsinghua Doctoral Student Academic Forum & 6th Postgraduate Academic Forum. Poster & Oral Presentation.~\[[images/fig-forum1.png poster]\]~\[[forum.html certificate]\]
+- 2017 Intelligent Unmanned System Crossover Field Doctoral Academic Forum. Poster.~\[[images/fig-forum1.png poster]\]~\[[forum.html certificate]\]
+

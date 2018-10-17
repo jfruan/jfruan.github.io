@@ -1,0 +1,11 @@
+# jemdoc: nofooter
+# jemdoc: menu{MENU}{running.html}
+
+== My Wedding
+
+I got married on Aug 17, 2017. This is my wedding documentary.
+
+~~~
+{}{raw}
+<div align="left"> <iframe width="560" height="315" src="https://www.youtube.com/embed/qwz2u6FgajI"" frameborder="0" allowfullscreen align="middle"></iframe> </div>
+~~~

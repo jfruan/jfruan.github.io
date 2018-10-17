@@ -1,136 +1,124 @@
-# jemdoc: menu{MENU}{index.html}, title{Vuong V. Trinh}
-# jemdoc: addcss{css/jacob.css}{css/page.css}{css/exp.css}{css/cvxgen.css}{css/prob_grammar.css}{css/extra.css}{css/bibtex.css}
+# jemdoc: nofooter
+# jemdoc: menu{MENU}{index.html}
+= Heng SHI ~ʷ��
 
 ~~~
-{}{img_left}{img/portrait.jpg}{Vuong V. Trinh}{200}{}{}
+{}{img_left}{images/head.jpg}{Heng Shi}{250px}
+[http://shiheng.site Heng Shi], Third Year Ph.D. student  \n
+[http://www.csai.tsinghua.edu.cn/ State Key Laboratory of Intelligent Technology and Systems]\n
+Department of Computer Science and Technology\n
+[http://www.tsinghua.edu.cn Tsinghua University], Beijing, China~{{<a><img src="images/cn.jpg" alt="CN"/></a>}}\n\n\n
+
+[http://shiheng.site http:\/\/www.shiheng.site\/]\n[https://shshiheng.github.io/ https:\/\/shshiheng.github.io\/]\n\n
+[contact.html Contact]: [sh_shiheng@outlook.com]
+\n~~~~~~~~~~~~~~~~[sh15@mails.tsinghua.edu.cn]\n\n
+
+{{<a href="https://scholar.google.com/citations?user=maZqCl8AAAAJ&hl=en"><img src="images/google-scholar.png" alt="google-scholar" /></a>}}~{{<a href="https://github.com/shshiheng"><img src="images/github.jpg" alt="github" /></a>}}~{{<a href="https://www.linkedin.com/in/shshiheng"><img src="images/LinkedIn.png" alt="LinkedIn" /></a>}}~{{<a href="https://www.facebook.com/shshiheng"><img src="images/Facebook.png" alt="Facebook" /></a>}}~{{<a href="https://www.instagram.com/sh_shiheng"><img src="images/instagram.png" alt="ins" /></a>}}
 ~~~
 
-= About me
+== News
+- *Jun 25, 2018*: 
+My visiting student application was accepted. 
+I will be a visiting PhD student to the [http://casy.technion.ac.il/ Cooperative Autonomous Systems Laboratory], Faculty of Aerospace Engineering at [https://www.technion.ac.il/en/ Technion - Israel Institute of Technology], Haifa, Israel, 
+under the supervision of [http://aerospace.technion.ac.il/person/shima-tal/ Prof. Tal Shima], from Oct 2018 to Apr 2019.
 
-I was a doctoral candidate in process control and optimization at [http://www.gipsa-lab.fr/ Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)] and [http://www.cea.fr/ Commissariat à l'énergie atomique et aux énergies alternatives (CEA)] within [http://inac.cea.fr/sbt/ Service des Basses Températures (INAC-SBT)]. 
+- *Jun 11, 2018*: 
+I contributed a paper to 2019 AIAA Guidance, Navigation, and Control Conference of [https://scitech.aiaa.org/ AIAA SciTech Forum 2019]. Hope everything goes well!
 
-I received engineer's degree from [https://en.hust.edu.vn/ Hanoi University of Science and Technology (HUST)] in 2012, followed by master's degree from [https://www.univ-grenoble-alpes.fr/ Université Joseph Fourier (UJF)] and [http://www.grenoble-inp.fr/ Institut Polytechnique de Grenoble (Grenoble INP)] in 2014, both in automation and control engineering.
+== Biography \[*[CV_SH.pdf CV]*\]
+I am currently a third year Ph.D. student in [http://www.csai.tsinghua.edu.cn/ State Key Laboratory of Intelligent Technology and Systems], [http://www.cs.tsinghua.edu.cn/ Department of Computer Science and Technology], [http://www.tsinghua.edu.cn Tsinghua University], supervised by [http://www.cs.tsinghua.edu.cn/publish/cs/4616/2013/20130424105018901205437/20130424105018901205437_.html Prof. Jihong Zhu]. 
+Previously, I received the M. S and B. S degree from [http://sa.buaa.edu.cn School of Astronautics] in [http://www.buaa.edu.cn Beihang University] (former Beijing University of Aeronautics and Astronautics) in 2015 and 2012, under the supervision of [http://www.sa.buaa.edu.cn/info/1053/2949.htm Prof. Yunfeng Dong].
+\n\n
+My research interests are in the area of guidance and control of vehicles, in particular missiles and unmanned aircraft. Specific interests are: cooperative guidance, aircraft control, intelligent control, and Sensor fusion.
+\n\n
+Recently, I am working on the research of active aircraft protection problem using computational methods and machine learning.
 
-I completed few MOOCs, including the training course [https://courses.edx.org/certificates/4e869688c7974b4a9921132fb210af95 CS50's Introduction to Computer Science (edX | Harvard University)] and the professional certificate program [https://credentials.edx.org/credentials/705bea19346245fd88ee8220869331c7 TUM Lean Six Sigma Yellow Belt Certification (edX | Technische Universität München)].
-
-I am a numerical optimization, process control and machine learning enthusiast. I am also keen on industrial automation, computer programming and embedded applications.
-
-= Portoflio
-
-== Robust Active Vibration Control
-
-Supervisors: [https://www.gipsa-lab.grenoble-inp.fr/~ioandore.landau/ Ioan D. Landau] and [https://www.researchgate.net/profile/Luc_Dugard Luc Dugard] at [http://www.gipsa-lab.fr/ Grenoble Images Parole Signal Automatique laboratoire (GIPSA-lab)].
-
+== Publications \[*[https://scholar.google.com/citations?user=maZqCl8AAAAJ&hl=en Google Scholar]*\]
 ~~~
-{}{img_left}{research/avc.jpg}{}{200}{}{}
-~~~
-
-~~~
-{}{img_left}{research/psd.png}{}{200}{}{}
-~~~
-
-== Innovative Advanced Control of Large Cryogenic Systems to Save Energy and Reduce Carbon Emission
-
-Supervisors: [http://www.mazenalamir.fr/home/ Mazen Alamir] and [https://www.researchgate.net/profile/P_Bonnay Patrick Bonnay] at [http://www.cea.fr/ Commissariat à l'énergie atomique et aux énergies alternatives (CEA)] within [http://inac.cea.fr/sbt/ Service des Basses Températures (INAC-SBT)], funded by [http://www.agence-nationale-recherche.fr/Project-ANR-13-SEED-0005 Project ANR CRYOGREEN].
-
-~~~
-{}{img_left}{research/400W.jpg}{}{200}{}{}
-*Cryogenic refrigerator control problem*
-- Widely used to cool down and maintain superconductivity of supraconducting devices in nuclear fusion reactors or particle accelerators. 
-- Composed of several heterogeneous subsystems that may spread over some large areas and are strongly coupled, while tuning, maintenance and upgrading
-are taken place quite often, making modular control design becomes crucial.
-
-*Proposed hierarchical distributed control framework*
-- A two-level hierarchical model predictive control framework is studied, relying on a fixed-point based coordination mechanism. 
-- Coordination and therefore overall optimality is achieved by means of the quadratic approximation approach that is widely used in derivative-free optimization techniques.
+{}{img_left}{images/fig-IFAC.png}{fig-IFAC}{300px}
+*Heng Shi*, Jihong Zhu, Xiaming Yuan, Minchi Kuang, Wufan Wang, Zhihui Deng. "Research on Intercepting Strategy of Multiple Kill Vehicle in Midcourse Defense Based on Multi-Sensors Fusion
+Method". /IFAC-PapersOnLine/, 50(1): 15032-15037, 2017. (*[https://www.ifac2017.org/ IFAC 2017], Toulouse*)~~*{{<font color="Red">[Oral]</font>}}*
+\n \[[pub/IFAC.pdf paper]\]~\[[https://www.youtube.com/watch?v=_eiH_-l_YNY&feature=youtu.be video]]~\[[conference.html @conference]]
 ~~~
 
 ~~~
-{}{img_left}{research/cern_wcs18kw.jpg}{}{200}{}{}
-*Compression station control problem*
-- Primary component of the helium cryogenic systems, composed by several volumetric compressors, a buffer system and some control valves installation such as bypass, charge and discharge valves. 
-- Extensively deployed in buildings and facilities under different configurations, capacities and constraints.
-
-*Proposed generic PLC-compatible control framework*
-- Physical modelling using object-oriented user-friendly library +SimCryogenics+.
-- Allocation control structure embeds implicit/explicit constrained model predictive controllers.
-~~~
-
-=== Explicit nonlinear model predictive control
-
-~~~
-{}{img_left}{research/enmpc-partition.png}{}{200}{}{}
-*Source code*
-\n[https://github.com/trinhvv/explicit-mpc explicit-mpc]: Data driven explicit nonlinear model predictive control method leverages robust nonlinear regression and reduced-set support vector machines.  
-\n[https://github.com/trinhvv/robust-nonlinear-regression robust-nonlinear-regression]: Multivariate robust nonlinear regression leverages Wiener model and sparsity-induced optimization.
-\n*Technologies*
-\nLibraries: +qpOASES+, +ACADOtoolkit+, +CPLEX+, +LIBSVM+, +SPRtool+
-\nLanguages: +Matlab+, +C+
-~~~
-
-=== Hierarchical distributed model predictive control
-
-~~~
-{}{img_left}{research/anderson-convergence.png}{}{200}{}{}
-*Source code*
-\n[https://github.com/trinhvv/hierarchical-mpc hierarchical-mpc]: Hierarchical model predictive control coordination method for dynamical coupled systems using fixed-point iterations and derivative-free optimization.
-\n*Technologies*
-\nLibraries: +qpOASES+, +NLopt+
-\nLanguages: +Matlab+, +C+
-~~~
-
-== Anomaly Detection of Time Series Data Using Machine Learning, Data Mining and Deep Learning
-
-Collaborators: [https://www.linkedin.com/in/kim-phuc-tran-5bb779b3/ Phuc K. Tran], with other researchers in Vietnam, France and Belgium. ([https://www.researchgate.net/project/Anomaly-Detection-of-Time-Series-Data-using-Machine-Learning-Data-Mining-Deep-Learning Project link])
-
-~~~
-{}{img_left}{research/ibrl_wsn.png}{}{200}{}{}
-*Anomaly detection in wireless sensor networks*
-- Composed of a large number of sensor nodes that can communicate the information gathered from a monitored field and to cooperatively pass their data throughout the network. 
-- Due to the deployment of a large number of sensor nodes in hostile environments, data collected is often unreliable. This will affect the modeling and scientific reasonable inference by information gatherered.
+{}{img_left}{images/fig-AAS.png}{fig-AAS}{300px}
+*Heng Shi*, Jihong Zhu. "Trajectory Planning of Approaching Non-cooperative Targets Based on Gauss Pseudospectral Method". /Advances in the Astronautical
+Sciences/, 160(1): 1527-1538, 2017. 
+\n(*[http://www.space-flight.org/docs/2017_winter/2017_winter.html 27th AAS/AIAA Space Flight Mechanics Meeting], San Antonio*)~~*{{<font color="Red">[Oral]</font>}}*
+\n \[[pub/AAS.pdf paper]\]~\[[https://www.youtube.com/watch?v=1zYYM5NaFJA&feature=youtu.be video]]~\[[conference.html @conference]]
 ~~~
 
 ~~~
-{}{img_left}{research/anomaly-detection.png}{}{200}{}{}
-*Source code*
-\n[https://github.com/trinhvv/wsn-svdd-mk wsn-svdd-mk]: Anomaly detection in wireless sensor networks via support vector data description with Mahalanobis kernels and discriminative adjustment.  
-\n[https://github.com/trinhvv/wsn-ocsvm-dfn wsn-ocsvm-dfn]: Data driven hyperparameter optimization of one-class support vector machines for anomaly detection in wireless sensor networks.
-\n*Technologies*
-\nLibraries: +LIBSVM+, +NLopt+, +NumPy+, +SciPy+, +matplotlib+
-\nLanguages: +Matlab+, +Python+
+{}{img_left}{images/fig-CSNC.png}{fig-CSNC}{300px}
+*Heng Shi*, Jihong Zhu. "Research on Application Specication of Chinese Domestic Satellite Technology in Field of Intelligent Tourism". /China Satellite Navigation
+Conference/ (CSNC). 2017. 
+\n \[[pub/CSNC.pdf paper]\]
 ~~~
 
-== Cryptoasset Analytics and Quantitative Algorithmic Trading
-
-=== Blockchain and exchange statistics
-
 ~~~
-{}{img_left}{https://github.com/trinhvv/trading-analysis-bot/blob/master/img/avatar.png?raw=true}{}{200}{}{}
-*Chatbot*
-\n[https://github.com/trinhvv/trading-analysis-bot trading-analysis-bot]: Telegram chatbot for data-driven analytics of cryptoassets with technical and sentimental analyses, development activities and on-chain transactions statistics. 
-\n/Developed during my introductory computer science course at [https://courses.edx.org/certificates/4e869688c7974b4a9921132fb210af95 edX | Harvard University]./
-\n/[https://t.me/trading_analysis_bot Hey, want to chat?]/
-\n*Technologies*
-\nLibraries: +python-telegram-bot+, +python-binance+, +numpy+, +TA-lib+
-\nPostgreSQL database: +psycopg2+
-\nCloud platform: +Heroku+
+{}{img_left}{images/fig-JCQU.png}{fig-JCQU}{300px}
+XiaonaWei, Yunfeng Dong, Fengrui Liu, Lu Tian, Zhao Hao, *Heng Shi*. "Principal component analysis and cluster analysis based orbit optimization for earth observation satellites". /The Journal of Chongqing University-English/. 15(3): 83-94. 2016.
+\n \[[pub/JCQU.pdf paper]\]
 ~~~
 
-=== Cryptoasset valuation and price analysis
-
 ~~~
-{}{img_left}{https://www.ibm.com/blogs/bluemix/wp-content/uploads/2016/02/IBM_Blockchain_Hero.png}{}{200}{}{}
-*Blog*
-\n[https://cryptoasset-analytics.herokuapp.com https://cryptoasset-analytics.herokuapp.com]: In-depth studies on network value, ranking, on-chain metrics and valuation models for cryptoassets.
-\n/Collection of my research as volunteer community analyst at [https://messari.io Messari]./
-\n*Technologies*
-\nWeb framework: +Pelican+
-\nTheme: +Attila+
-\nCloud platform: +Heroku+
+{}{img_left}{images/fig-IMCCC.png}{fig-IMCCC}{300px}
+Xiaona Wei, *Heng Shi*, Lu Tian, Zhao Hao, Chunsheng Zhang. "Design and Development of a Universal Verication System for Satellite Data Management System Based on AOS". /International Conference on Instrumentation and Measurement, Computer, Communication and Control/ (IMCCC), IEEE. 2015.
+\n \[[pub/IMCCC.pdf paper]\]
 ~~~
 
-= Publications
+~~~
+{}{img_left}{images/fig-ICVRV.png}{fig-ICVRV}{300px}
+*Heng Shi*, Yunfeng Dong. "Research on Cooperative Control of Human-Computer Interaction Tools with High Recognition Rate Based on Neural Network". /International Conference on Virtual Reality and Visualization/ (ICVRV), IEEE. 2014.
+\n \[[pub/ICVRV.pdf paper]\]
+~~~
 
-#includeraw{publist.html}
+== Patents
+- *Heng Shi*, Jihong Zhu. A Three-dimensional Real-time Omnidirectional Guidance Law, China Patent, CN201810246200.3.\n
+- *Heng Shi*, Jihong Zhu. \A Real-time Multi-prediction Guidance Law for Aircraft Defending Missile, China Patent, CN201818001011.0.
 
-\n
+== Forums
+
+- 2017 Tsinghua Doctoral Student Academic Forum & 6th Postgraduate Academic Forum. Poster & Oral Presentation. ~\[[images/fig-forum1.png poster]\]~\[[forum.html certificate]\]
+- 2017 Intelligent Unmanned System Crossover Field Doctoral Academic Forum. Poster. ~\[[images/fig-forum1.png poster]\]~\[[forum.html certificate]\]
+
+== Honors & Awards
+
+- 2017' Second Class of Social Work Scholarship, Tsinghua University
+- 2017' Dengfeng Scholarship for Travel Grant, Tsinghua University
+- 2017' Advanced Individual in Social Practice, Tsinghua University
+- 2016' Integrated Excellence Scholarships, Tsinghua University
+- 2015' [images/cer-2015.jpg Outstanding Graduates in Beijing]
+- 2015' Excellent Postgraduate, Beihang University
+- 2014' [images/cer-2014.jpg China National Graduate Scholarship]
+- 2014' [images/cer-2014-2.jpg Principle's Scholarship], Beihang University
+- 2013' [images/cer-2013-1.jpg Xi'an Aircraft Industry Scholarship]
+- 2013' [images/cer-2013-2.jpg Excellent Postgraduate], Beihang University
+- 2013' [images/cer-2013-3.jpg Excellent Postgraduate Cadre], Beihang University
+- 2012' [images/cer-2012-1.jpg Merit Student], Beihang University
+- 2010' [images/cer-2010-1.jpg 2nd-prize of the 20th Feng Ru Cup], Beihang University
+- 2009' [images/cer-2009-6.jpg 3rd-prize of National English Contest for College Students]
+- 2009' [images/cer-2009-7.jpg 1st-prize of Beihang English Vocabulary Contest]
+- 2009' [images/cer-2009-1.jpg 3rd-prize Scholarship of Collective Duties], Beihang University
+- 2009' [images/cer-2009-2.jpg Advanced Individual in Social Practice], Beihang University
+- 2009' [images/cer-2009-3.jpg 2nd-prize Scholarship of Discipline Competition], Beihang University
+- 2009' [images/cer-2009-4.jpg Excellent Student Cadre], Beihang University
+- 2009' [images/cer-2009-5.jpg Excellent Volunteers], Beihang University
+
+== Activities
+
+- 2017 Winter, *Teaching Assistant*, Introduction to Intelligent Unmanned System 
+- 2016 Summer, *Team Leader*, Tsinghua Doctoral Social Practice Team to Urumqi
+- 2012-2015, *Monitor*, SY12152, Beihang University
+- 2009-2010, *President*, [https://baike.baidu.com/item/%E5%8C%97%E8%88%AA%E8%93%9D%E5%A4%A9%E5%BF%97%E6%84%BF%E8%80%85%E5%8D%8F%E4%BC%9A/3620192 Bluesky Volunteers' Association of BUAA]
+\n\n
+
+- *Membership:* AIAA student; AAS student; CCF student
+\n\n
+- *Reviews:* [https://www.journals.elsevier.com/measurement/ Measurement]; [http://www.aas.net.cn/CN/volumn/current.shtml Acta Automatica Sinica](Assist my advisor)
+
+
+== Miscellany
+
+Hobbies: [running.html Running] (5-time marathon finisher), Soccer, Ski, Badminton, Traveling, Calligraphy

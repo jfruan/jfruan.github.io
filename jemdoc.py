@@ -1,5 +1,27 @@
 #!/usr/bin/env python
 
+"""jemdoc version 0.7.3, 2012-11-27."""
+
+# Copyright (C) 2007-2012 Jacob Mattingley (jacobm@stanford.edu).
+#
+# This file is part of jemdoc.
+#
+# jemdoc is free software; you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 3 of the License, or (at your option) any later
+# version.
+#
+# jemdoc is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+# A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>.
+#
+# The LaTeX equation portions of this file were initially based on
+# latexmath2png, by Kamil Kisiel (kamil@kamikisiel.net).
+#
+
 import sys
 import os
 import re
@@ -69,6 +91,44 @@ class controlstruct(object):
     self.inf.close()
     self.inf = self.otherfiles.pop(0)
 
+def showhelp():
+  a = """Usage: jemdoc [OPTIONS] [SOURCEFILE] 
+  Produces html markup from a jemdoc SOURCEFILE.
+
+  Most of the time you can use jemdoc without any additional flags.
+  For example, typing
+
+    jemdoc index
+
+  will produce an index.html from index.jemdoc, using a default
+  configuration.
+
+  Some configuration options can be overridden by specifying a
+  configuration file.  You can use
+
+    jemdoc --show-config
+
+  to print a sample configuration file (which includes all of the
+  default options). Any or all of the configuration [blocks] can be
+  overwritten by including them in a configuration file, and running,
+  for example,
+
+    jemdoc -c mywebsite.conf index.jemdoc 
+
+  You can view version and installation details with
+
+    jemdoc --version
+
+  See http://jemdoc.jaboc.net/ for many more details."""
+  b = ''
+  for l in a.splitlines(True):
+    if l.startswith(' '*4):
+      b += l[4:]
+    else:
+      b += l
+
+  print b
+
 def standardconf():
   a = """[firstbit]
   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
@@ -79,25 +139,43 @@ def standardconf():
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   
   [defaultcss]
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="css/jemdoc.css" type="text/css" />
+  <link rel="stylesheet" href="jemdoc.css" type="text/css" />
   
   [windowtitle]
   # used in header for window title.
   <title>|</title>
+
+  [fwtitlestart]
+  <div id="fwtitle">
+
+  [fwtitleend]
+  </div>
+  
+  [doctitle]
+  # used at top of document.
+  <div id="toptitle">
+  <h1>|</h1>
+  
+  [subtitle]
+  <div id="subtitle">|</div>
+  
+  [doctitleend]
+  </div>
   
   [bodystart]
   </head>
-  
   <body>
   
-  [pagetitle]
-  <div id="fwtitle">
-  <div id="toptitle">
-  <h1>Vuong V. Trinh</h1>
-  </div>
-  </div>
+  [analytics]
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  try {
+      var pageTracker = _gat._getTracker("|");
+      pageTracker._trackPageview();
+  } catch(err) {}</script>
   
   [menustart]
   <table summary="Table for page layout." id="tlayout">
@@ -173,10 +251,11 @@ def standardconf():
   </div>
   </div>
   
-  &copy; trinhvv
-  
   [lastupdated]
-  No rights reserved
+  Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+
+  [sourcelink]
+  (<a href="|">source</a>)
 
   """
   b = ''
@@ -1103,7 +1182,7 @@ def procfile(f):
   showfooter = True
   showsourcelink = False
   showlastupdated = True
-  showlastupdatedtime = False
+  showlastupdatedtime = True
   nodefaultcss = False
   fwtitle = False
   css = []
@@ -1229,9 +1308,6 @@ def procfile(f):
   hb(f.outf, f.conf['windowtitle'], title)
 
   out(f.outf, f.conf['bodystart'])
-  
-  hb(f.outf, f.conf['windowtitle'], title)
-  out(f.outf, f.conf['pagetitle'])
 
 
   if f.analytics:
@@ -1423,6 +1499,7 @@ def procfile(f):
 
 def main():
   if len(sys.argv) == 1 or sys.argv[1] in ('--help', '-h'):
+    showhelp()
     raise SystemExit
   if sys.argv[1] == '--show-config':
     print standardconf()

@@ -1,0 +1,37 @@
+# jemdoc: nofooter
+# jemdoc: menu{MENU}{conference.html}
+= Conference
+
+== *[https://www.ifac2017.org/ IFAC 2017]*, Toulouse, France
+\n July 9-14, 2017
+~~~
+{}{img_left}{images/con-ifac1.jpg}{ifac1}{400px}
+
+[img{400px} images/con-ifac2.jpg ifac2]
+~~~
+
+~~~
+{}{img_left}{images/con-ifac3.jpg}{ifac3}{400px}
+
+[img{400px} images/con-ifac4.jpg ifac4]
+~~~
+
+== *[http://www.space-flight.org/docs/2017_winter/2017_winter.html 27th AAS/AIAA Space Flight Mechanics Meeting]*, San Antonio, USA  
+\nFebruary 5-9, 2017
+
+~~~
+{}{img_left}{images/con-aas1.jpg}{aas1}{400px}
+
+[img{400px} images/con-aas2.jpg aas2]
+~~~
+
+~~~
+{}{img_left}{images/con-aas3.jpg}{aas3}{400px}
+
+[img{400px} images/con-aas4.jpg aas4]
+~~~
+~~~
+[img{400px} images/con-aas5.jpg aas5]
+~~~
+
+

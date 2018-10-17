@@ -1,0 +1,22 @@
+# jemdoc: nofooter
+# jemdoc: menu{MENU}{contact.html}
+= Contact
+
+== Emails
+ [sh_shiheng@outlook.com]\n
+ [sh15@mails.tsinghua.edu.cn]\n
+ [shshiheng@gmail.com]
+
+== Address
+~~~
+{}{img_left}{images/Tsinghua.jpg}{Tsinghua}{300px}{}{http://www.tsinghua.edu.cn}
+==== Laboratory
+\n 9-308 East Main Building, Tsinghua University
+\n Beijing 100084, China
+~~~
+
+
+== Find me online
+
+{{<a href="https://scholar.google.com/citations?user=maZqCl8AAAAJ&hl=en"><img src="images/google-scholar.png" alt="google-scholar" /></a>}}~{{<a href="https://github.com/shshiheng"><img src="images/github.jpg" alt="github" /></a>}}~{{<a href="https://www.linkedin.com/in/shshiheng"><img src="images/LinkedIn.png" alt="LinkedIn" /></a>}}~{{<a href="https://www.facebook.com/shshiheng"><img src="images/Facebook.png" alt="Facebook" /></a>}}~{{<a href="https://www.instagram.com/sh_shiheng"><img src="images/instagram.png" alt="ins" /></a>}}
+
